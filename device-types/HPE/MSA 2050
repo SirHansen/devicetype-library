@@ -1,0 +1,39 @@
+---
+manufacturer: HPE
+model: MSA 2050
+slug: msa-2050
+part_number: 
+u_height: 2
+is_full_depth: true
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: usb
+    type: usb-micro-b
+power-ports:
+  - name: P0
+    type: iec-60320-c14
+    maximum_draw: 430
+  - name: P1
+    type: iec-60320-c14
+    maximum_draw: 430
+interfaces:
+  - name: GigabitEthernet0
+    type: 1000base-t
+    mgmt_only: true
+  - name: TenGigabitEthernet0/0/0
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/1
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/2
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet0/0/3
+    type: 10gbase-x-sfpp
+   -name: Expansion port
+    type: Expansion port
+   -name: CLI port (mini-USB)
+    type: CLI port (mini-USB)
+    
+   
+
+ 
